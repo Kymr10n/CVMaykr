@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\begin{document}
+
+\section*{Work Experience}
+{% for exp in experience %}
+  {% if "cloud" in exp.tags or "leadership" in exp.tags %}
+    \textbf{{ exp.position }} at {{ exp.company }} \\
+    {{ exp.period }} -- {{ exp.location }} \\
+    \begin{itemize}
+    {% for task in exp.responsibilities %}
+      \item {{ task }}
+    {% endfor %}
+    \end{itemize}
+  {% endif %}
+{% endfor %}
+
+\end{document}

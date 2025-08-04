@@ -1,0 +1,43 @@
+{
+  "personal_info": {
+    "name": "Alexander Köhler",
+    "email": "alexander.c.koehler@gmail.com",
+    "phone": "+41 79 3149717",
+    "address": "Aemtlerhofweg 8, CH-8912 Obfelden"
+  },
+  "experience": [
+    {
+      "position": "Group Leader Digital Workplace",
+      "company": "FIFA",
+      "tags": [
+        "M365",
+        "cloud",
+        "agile",
+        "product"
+      ],
+      "period": "04.2020 - 01.2022",
+      "location": "Zurich (CH)",
+      "responsibilities": [
+        "Led digital workplace transformation",
+        "Managed M365 and productivity tools",
+        "Introduced Device-as-a-Service"
+      ]
+    },
+    {
+      "position": "Principal Engineer Digital Workplace & Cloud",
+      "company": "Swissgrid",
+      "tags": [
+        "leadership",
+        "cloud",
+        "agile"
+      ],
+      "period": "02.2022 - Present",
+      "location": "Aarau (CH)",
+      "responsibilities": [
+        "Defined digital workplace strategy",
+        "Led secure datacenter renewal",
+        "Scrum Master for DevOps team"
+      ]
+    }
+  ]
+}
